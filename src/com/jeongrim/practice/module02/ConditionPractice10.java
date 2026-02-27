@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ConditionPractice10 {
     public static void main(String[] args) {
+        //10.
         System.out.println("실행할 기능을 선택하세요." +
                 "\n1. 메뉴 출력" + "\n2. 짝수/홀수" + "\n3. 합격/불합격" +
                 "\n4. 계절" + "\n5. 로그인" + "\n6. 권한 확인" +
