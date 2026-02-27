@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class ConditionPractice5 {
-    public static void main(String[] args) {
+    public void Practice5() {
         //5.
         String id = "jeongrim";
         int pw = 1234;
@@ -21,5 +21,10 @@ public class ConditionPractice5 {
         } else if (pw != pwInput){
             System.out.println("비밀번호가 틀렸습니다.");
         }
+    }
+
+    public static void main(String[] args) {
+        ConditionPractice5 login = new ConditionPractice5();
+        login.Practice5();
     }
 }

@@ -3,7 +3,7 @@ package com.jeongrim.practice.module02;
 import java.util.Scanner;
 
 public class ConditionPractice2 {
-    public static void main(String[] args) {
+    public void practice2() {
         //2.
         System.out.println("숫자를 한 개 입력하세요: ");
         Scanner sc = new Scanner(System.in);
@@ -16,5 +16,9 @@ public class ConditionPractice2 {
             System.out.println("홀수입니다.");
         }
 
+    }
+    public static void main(String[] args) {
+        ConditionPractice2 odd = new ConditionPractice2();
+        odd.practice2();
     }
 }

@@ -3,7 +3,7 @@ package com.jeongrim.practice.module02;
 import java.util.Scanner;
 
 public class ConditionPractice4 {
-    public static void main(String[] args) {
+    public void practice4() {
         //4.
         Scanner sc = new Scanner(System.in);
         System.out.println("1~12 사이의 정수 입력: ");
@@ -33,5 +33,10 @@ public class ConditionPractice4 {
 
         }
 
+    }
+
+    public static void main(String[] args) {
+        ConditionPractice4 season = new ConditionPractice4();
+        season.practice4();
     }
 }

@@ -3,7 +3,7 @@ package com.jeongrim.practice.module02;
 import java.util.Scanner;
 
 public class ConditionPractice3 {
-    public static void main(String[] args) {
+    public void practice3() {
         //3.
         Scanner sc = new Scanner(System.in);
         System.out.println("국어 점수: ");
@@ -22,5 +22,10 @@ public class ConditionPractice3 {
             System.out.println("불합격입니다.");
         }
 
+    }
+
+    public static void main(String[] args) {
+        ConditionPractice3 pass = new ConditionPractice3();
+        pass.practice3();
     }
 }

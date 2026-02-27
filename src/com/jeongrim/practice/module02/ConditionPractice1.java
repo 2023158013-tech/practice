@@ -3,7 +3,7 @@ package com.jeongrim.practice.module02;
 import java.util.Scanner;
 
 public class ConditionPractice1 {
-    public static void main(String[] args) {
+    public void practice1() {
         //1.
         System.out.println("1. 수정, 2. 조회, 3. 삭제, 4. 종료: ");
         System.out.println("메뉴 번호를 입력하세요: ");
@@ -20,5 +20,9 @@ public class ConditionPractice1 {
             System.out.println("종료 메뉴입니다.");
         }
 
+    }
+    public static void main(String[] args) {
+        ConditionPractice1 menu = new ConditionPractice1();
+        menu.practice1();
     }
 }
