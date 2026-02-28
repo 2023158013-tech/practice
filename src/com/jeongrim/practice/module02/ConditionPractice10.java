@@ -2,8 +2,10 @@ package com.jeongrim.practice.module02;
 
 import java.util.Scanner;
 
+import static java.awt.SystemColor.menu;
+
 public class ConditionPractice10 {
-    public static void main(String[] args) {
+    public void menuView() {
         //10.
         System.out.println("실행할 기능을 선택하세요." +
                 "\n1. 메뉴 출력" + "\n2. 짝수/홀수" + "\n3. 합격/불합격" +
@@ -42,5 +44,10 @@ public class ConditionPractice10 {
             scoreResult.practice9();
         }
 
+    }
+
+    public static void main(String[] args) {
+        ConditionPractice10 program = new ConditionPractice10();
+        program.menuView();
     }
 }
