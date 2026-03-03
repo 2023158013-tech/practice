@@ -1,4 +1,4 @@
-package com.jeongrim.practice.module03;
+package com.jeongrim.practice.module03.array;
 
 public class ArrayPractice1 {
     public void practice1() {

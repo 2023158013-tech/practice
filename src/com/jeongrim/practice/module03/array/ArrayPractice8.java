@@ -1,6 +1,5 @@
-package com.jeongrim.practice.module03;
+package com.jeongrim.practice.module03.array;
 
-import java.util.DoubleSummaryStatistics;
 import java.util.Scanner;
 
 public class ArrayPractice8 {
