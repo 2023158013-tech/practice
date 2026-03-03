@@ -1,4 +1,4 @@
-package com.jeongrim.practice.oop;
+package com.jeongrim.practice.oop_임의;
 
 
 public class SmartPhone {
