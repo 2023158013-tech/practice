@@ -1,6 +1,5 @@
-package com.jeongrim.practice.module02;
+package com.jeongrim.practice.module02.condition;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class ConditionPractice5 {

@@ -1,8 +1,6 @@
-package com.jeongrim.practice.module02;
+package com.jeongrim.practice.module02.condition;
 
 import java.util.Scanner;
-
-import static java.awt.SystemColor.menu;
 
 public class ConditionPractice10 {
     public void menuView() {
