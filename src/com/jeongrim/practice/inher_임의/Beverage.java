@@ -1,4 +1,4 @@
-package com.jeongrim.practice.inher;
+package com.jeongrim.practice.inher_임의;
 
 public class Beverage {
     private String name;
